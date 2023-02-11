@@ -1,0 +1,42 @@
+button{
+    color:green;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    display:flex;
+    align-items:center;
+    padding:2px 6px;
+    margin:0 6px;
+    cursor:pointer;
+
+}
+#style{
+    border-radius: 50%;
+    justify-content:center;
+}
+#style img{
+    justify-items:center;
+    border: 1px solid azure;
+    border-radius:50%;
+    padding:5px 5px;
+    margin:0 17px;
+    margin: 0 42.5% 15px;
+    justify-self: center;
+
+}
+.buttun{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:0 0 50px 0;
+    
+}
+.first{
+    background-color:#9facc2;
+}
+.sec{
+    background-color:#DFA70C;
+}
+.terc{
+    background-color:#5282d1;
+}

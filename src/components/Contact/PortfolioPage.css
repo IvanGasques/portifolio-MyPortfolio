@@ -1,0 +1,18 @@
+.portfolio-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-item{
+    list-style-type: none;
+    padding-left:6px;
+  }
+  .contact-info{
+    padding-left:30px
+  }
+  .test{
+padding:30px;
+margin:20px  }
+  
+  

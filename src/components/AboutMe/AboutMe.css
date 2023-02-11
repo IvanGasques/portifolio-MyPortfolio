@@ -1,0 +1,53 @@
+.me{
+    
+}
+.about{
+    
+    height:30rem;
+background-image:URL('./—Pngtree—blue circle earth technology code_3243365.png');
+background-size: 40% ;
+background-repeat: no-repeat;
+width:100%;
+}
+.content{
+ border:1px gray;
+ width: 700px;
+ height:auto;
+ padding:10 0px 0 0px;
+ margin-left:40% ;
+ font-size:1.5rem;
+ color:#7D8792;
+ 
+}
+.about h1{
+    font-size:5rem;
+    margin:70px 0 0 220px;
+    color:#DFA70C;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .about{
+        height:180px;
+        margin-top:15px;
+        background-size: 50% ;
+        margin:0 -36px;
+    }
+    .about h1{
+        font-size:2rem;
+    margin-left:100px;
+    margin-top:25px;
+}
+        .content{
+            width:230px;
+            font-size:0.8rem;
+            margin-left:44%;
+            padding:0;
+        }
+
+}
+  
+  @media only screen and (max-width: 800px) {
+   
+   
+  }

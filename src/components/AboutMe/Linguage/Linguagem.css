@@ -1,0 +1,13 @@
+.list{
+    width:98%;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width:5%;
+    cursor:pointer;
+}
+.icon:hover{
+    transition-duration:1s;
+        color:#DFA70C;}

@@ -1,0 +1,63 @@
+
+[
+  {
+    "name": "My Youtube",
+    "image": "../src/assets/image/15338.png",
+    "description": "Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    "skills": {
+      "pri": "React",
+      "sec": "Node.js",
+      "terc": "MongoDB"
+    }
+  },
+  {
+    "name": "Ecommerce Website",
+    "image": "./src/assets/image/2.jpg",
+    "description": "Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    "skills": {
+      "pri": "React",
+      "sec": "Node.js",
+      "terc": "MongoDB"
+    }
+  },
+  {
+    "name": "Spotify Clone",
+    "image": "./src/assets/image/2.jpg",
+    "description": "Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    "skills": {
+      "pri": "React",
+      "sec": "Node.js",
+      "terc": "MongoDB"
+    }
+  },
+  {
+    "name": "Social Media",
+    "image": "./src/assets/image/2.jpg",
+    "description": "Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    "skills": {
+      "pri": "React",
+      "sec": "Node.js",
+      "terc": "MongoDB"
+    }
+  },
+  {
+    "name": "Dashboard Visualizer",
+    "image": "./src/assets/image/2.jpg",
+    "description": "Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    "skills": {
+      "pri": "React",
+      "sec": "Node.js",
+      "terc": "MongoDB"
+    }
+  },
+  {
+    "name": "Mobile Game",
+    "image": "./src/assets/image/2.jpg",
+    "description": "Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    "skills": {
+      "pri": "React",
+      "sec": "Node.js",
+      "terc": "MongoDB"
+    }
+  }
+]
