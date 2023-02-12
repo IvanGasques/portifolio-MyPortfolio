@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
-import "./PortfolioPage.css";
+//import "./PortfolioPage.css";
 
 function PortfolioPage() {
 

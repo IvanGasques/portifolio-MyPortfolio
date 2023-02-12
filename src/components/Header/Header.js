@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { HeaderContainer, Container } from './styles'
-import Menu from '../Menu/Menu'
+import Menu from '../NavBar/Menu'
 import Banner from './Banner/Banner'
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
        </div>
        </Container>
     </HeaderContainer>
-    <Banner/>
+    
 </>
   )
 }

@@ -1,21 +1,9 @@
 import React from "react";
 import {ProjectList} from "./projectList"
-//import axios from 'axios';
 import "./Project.css";
 
-function Projects({props}) {
-// const [state, setState ] = useState([])
+function Projects() {
 
-//   useEffect( () => {
-//     axios.get('..//../ProjectList.json') 
-//     .then(response => {
-//       const data = response.data;
-//       console.log(data);
-//     })
-//     .catch(error => {
-//       console.log(error);
-//     });
-//   },[]);
   return (
     <div className="projects">
     
@@ -28,7 +16,9 @@ function Projects({props}) {
             <h1>{project.name}</h1> 
             <img src={project.image} alt='project'/>
             <p>{project.description}</p>
-            <p><span>{project.skills.pri}</span><span>{project.skills.sec}</span><span>{project.skills.terc}</span></p>
+            <p><span>{project.skills.pri}</span>
+            <span>{project.skills.sec}</span>
+            <span>{project.skills.terc}</span></p>
             </div>
           );
         })}
