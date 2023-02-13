@@ -13,8 +13,8 @@ function Projects() {
           return (
             <div className="projectItem" 
             key={idx}> 
-            <h1>{project.name}</h1> 
             <img src={project.image} alt='project'/>
+            <h1>{project.name}</h1> 
             <p>{project.description}</p>
             <p><span>{project.skills.pri}</span>
             <span>{project.skills.sec}</span>

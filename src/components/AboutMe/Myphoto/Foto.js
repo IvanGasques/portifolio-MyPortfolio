@@ -24,7 +24,7 @@ const [ color, setColor ] = useState('black')
     <button className='sec' onClick={() => setColor('#DFA70C')}/> 
     <button  className='terc' onClick={() => setColor('#5282d1')}/>
     
-    </div><Linguagens/></>
+    </div></>
   )
 }
 

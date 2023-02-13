@@ -25,7 +25,7 @@ ul{
 }
 li :hover{
     color:#DFA70C;
-transition-duration:1s;
+transition-duration:0.5s;
     
 }
 `

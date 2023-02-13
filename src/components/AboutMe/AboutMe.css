@@ -1,6 +1,4 @@
-.me{
-    
-}
+
 .about{
     
     height:30rem;
@@ -8,6 +6,7 @@ background-image:URL('./—Pngtree—blue circle earth technology code_3243365.p
 background-size: 40% ;
 background-repeat: no-repeat;
 width:100%;
+margin-top:-170px;
 }
 .content{
  border:1px gray;
@@ -21,7 +20,7 @@ width:100%;
 }
 .about h1{
     font-size:5rem;
-    margin:70px 0 0 220px;
+    margin:0px 0 0 260px;
     color:#DFA70C;
 }
 

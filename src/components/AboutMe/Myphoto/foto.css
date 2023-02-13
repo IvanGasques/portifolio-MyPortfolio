@@ -6,7 +6,7 @@ button{
     display:flex;
     align-items:center;
     padding:2px 6px;
-    margin:0 6px;
+    margin:0px 6px 0px 6px;
     cursor:pointer;
 
 }
@@ -18,9 +18,9 @@ button{
     justify-items:center;
     border: 1px solid azure;
     border-radius:50%;
-    padding:5px 5px;
+    padding:5px 5px ;
     margin:0 17px;
-    margin: 0 42.5% 15px;
+    margin: 120px 42.5% 0;
     justify-self: center;
 
 }

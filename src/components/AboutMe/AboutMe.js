@@ -1,5 +1,6 @@
 import React  from 'react'
 import './AboutMe.css';
+import Linguagens from './Linguage/Linguagens';
 
 const AboutMe = () => {
 
@@ -12,7 +13,8 @@ const AboutMe = () => {
          resolução de problemas, busca constantemente oportunidades para aprimorar suas habilidades e ampliar seu conhecimento.
           Trabalha de forma proativa e colaborativa, buscando sempre entender as necessidades do usuário e
            entregar soluções eficientes.</p>
-    </div></div>
+    </div>
+    <Linguagens /></div>
   )
 }
 
