@@ -62,7 +62,7 @@ transition-duration:1s;}
 const StyledVideo = styled.div`{
   justify-content: space-evenly;
     display: flex;
-    height: 60vh;
+    height: 20vh;
     place-items: center;
         margin: 150px auto;
     width: 88%;

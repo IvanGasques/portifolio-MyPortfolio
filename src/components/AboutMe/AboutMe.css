@@ -1,7 +1,7 @@
 
 .about{
     
-    height:30rem;
+    height:40rem;
 background-image:URL('./—Pngtree—blue circle earth technology code_3243365.png');
 background-size: 40% ;
 background-repeat: no-repeat;
@@ -22,6 +22,34 @@ margin-top:-170px;
     font-size:5rem;
     margin:0px 0 0 260px;
     color:#DFA70C;
+}
+.about button{
+    width: 15%;
+border: solid 1px #DFA70C;
+  padding: 10px;
+  margin: 20px 10% 0;
+  font-size: 16px;
+  border-radius: 5px;
+  height:35px;
+  border: none;
+  background-color: transparent;
+  color: #FFFFFF;
+margin:4rem;
+transition-duration: 0.5s;
+  box-shadow: 0px 0px 10px #BBBBBB;
+  cursor: pointer;
+  justify-content:center;
+  text-decoration:none;
+  
+}
+.about button:hover{
+
+border: solid 1px #EEEEEE;
+transition-duration:0.5s;}
+
+.about a {
+    text-decoration:none;
+    color: #DFA70C;
 }
 
 

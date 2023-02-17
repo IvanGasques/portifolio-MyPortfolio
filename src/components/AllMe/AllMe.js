@@ -1,11 +1,22 @@
 
-import { Container, ContainerBox , ContainerDesc , Drop} from './style'
+import { Container, ContainerBox , ContainerDesc , Course, ContainerTitle } from './style'
 import Foto from '../../assets/image/WhatsApp Image 2023-01-27 at 20.16.04 copy.jpeg';
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
-import Card from 'react-bootstrap/Card'
+import styled from 'styled-components';
+
+const StyledVideo = styled.div`{
+  justify-content: space-evenly;
+    display: flex;
+    height: 45vh;
+    place-items: center;
+        margin: 0px auto;
+    width: 100%;
+    text-color:gray;
+    color:#DFA70C;
+}`;
 
 const UpdatingPopover = React.forwardRef(
   ({ popper, children, show: _, ...props }, ref) => {
@@ -66,6 +77,16 @@ function AllMe() {
 
   return (
     <ContainerBox>
+    <StyledVideo>
+        <iframe width="690" height="400" src="https://www.youtube.com/embed/XrrbK5GwnA0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <ul>
+          <li className='item2' style={{display:'flex', justifyContent:'center' ,listStyle: 'none' }}></li><p style={{ color: 'gray' }}>Ivan Gasques</p><hr />
+          <li className='item2' style={{display:'flex', justifyContent:'center' ,listStyle: 'none' }}></li> <p style={{ color: 'gray' }}>Moita - Portugal</p><hr />
+          <li className='item2' style={{display:'flex', justifyContent:'center' ,listStyle: 'none' }}></li><p style={{ color: 'gray' }}>(+351) 916 630 190</p><hr />
+        </ul>
+
+      </StyledVideo>
+     
     <Container>
      <img  src={Foto} width='280px' alt='eu'>
 </img>
@@ -75,7 +96,8 @@ function AllMe() {
         <br/>
         Knowledge of Agile methodologies such as Scrum and Kanban. Ability to solve problems and work with designers, back-end developers, and other team members.</p>
 
-    </Container>
+    </Container> 
+    <ContainerTitle><h1>Linguage Speack</h1></ContainerTitle>
     <ContainerDesc>
     <OverlayTrigger
       trigger="click"
@@ -103,6 +125,7 @@ function AllMe() {
     </OverlayTrigger>
    
 </ContainerDesc>
+{/* 
        <ContainerDesc>
     EXPERIÊNCIA
 OAE - OPERADOR EM ESCOLA Ground Force. Aeroporto Lisboa Operador em escala
@@ -113,26 +136,30 @@ Correos Express. Alcochete | Jan 2021 - Out 2022</ContainerDesc>
 EXPERIÊNCIA
 OAE - OPERADOR EM ESCOLA Ground Force. Aeroporto Lisboa Operador em escala
 DISTRIBUIDOR
-Correos Express. Alcochete | Jan 2021 - Out 2022
+Correos Express. Alcochete | Jan 2021 - Out 2022 */}
 
-<div>
-<Card>
-      <Card.Header>Quote</Card.Header>
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p>
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
-          </p>
-          <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
+<Course>
+<h1>Courses</h1>
 
-</div>
+<h2>React.js Profissional</h2>
+<h4>Joao Ribeiro / Online  02/2023</h4>
+
+<h2>FRONT-END || Back-END</h2>
+<h4>Flag. Lisboa | Jan 2022 - Nov 2022</h4>
+Agile Methodology: Scrum / Kanban || UI/UX para developers || Scrum ||
+UI/UX para developers || HTML 5 || CSS3 || Sass || Responsive web design ||
+JavaScript || React || GitHub || Bootstrap || Estrutura de dados || MySQL
+
+
+<h2>WEB DESIGN</h2>
+<h4>Daniel Tapias  | Dez 2021 - Jan 2022</h4>
+HTML. || CSS || JavaScript
+
+<h2>LOGICA DE PROGRAMAÇÃO</h2>
+<h4>Udemy. Online | Dez 2021 - Dez 2021</h4>
+HTML. || CSS || JavaScript
+
+</Course>
 
     </ContainerBox>
   );
