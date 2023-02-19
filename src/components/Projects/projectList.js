@@ -9,20 +9,20 @@ export const ProjectList = [
   {
     name: "My Youtube",
     image: Proj1,
-    description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    description:"Copy from Youtube using an API, we use some hooks that are most used.",
     skills:{
       pri:"React",
-      sec:"Node.js",
-      terc:"MongoDB"} 
+      sec:"API",
+      terc:"Material"} 
   },
   {
-    name: "Ecommerce Website",
+    name: "Copy Site",
     image: Proj2,
-    description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    description:"A good layout made in react with only css.",
     skills:{
       pri:"React",
-      sec:"Node.js",
-      terc:"MongoDB"} 
+      sec:"CSS",
+      terc:"Figma"} 
   },
   {
     name: "Spotify Clone",
@@ -34,31 +34,40 @@ export const ProjectList = [
       terc:"MongoDB"} 
   },
   {
-    name: "Social Media",
+    name: "Mother Site",
     image: Proj4,
-    description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    description:"mother site was my first project made from scratch, made with react.",
     skills:{
       pri:"React",
-      sec:"Node.js",
-      terc:"MongoDB"} 
+      sec:"API JSON",
+      terc:"Bootstrap"} 
   },
   {
-    name: "Dashboard Visualizer",
+    name: "My Node",
     image: Proj5,
-    description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    description:"simple node done as training for some functionality",
     skills:{
       pri:"React",
-      sec:"Node.js",
-      terc:"MongoDB"} 
+      sec:"CSS",
+      terc:"LocalStore"} 
   },
   {
-    name: "Mobile Game",
+    name: "training form",
     image: Proj6,
-    description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    description:"training form",
     skills:{
-      pri:"React",
-      sec:"Node.js",
-      terc:"MongoDB"} 
+      pri:"HTML",
+      sec:"CSS",
+      terc:"JAVASCRIPT"} 
+  },
+  {
+    name: "Firts project",
+    image: Proj6,
+    description:"training form",
+    skills:{
+      pri:"HTML",
+      sec:"Tags",
+      terc:"Imagen"} 
   },
  
   

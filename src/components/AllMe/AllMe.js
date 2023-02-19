@@ -1,5 +1,5 @@
 
-import { Container, ContainerBox , ContainerDesc , Course, ContainerTitle } from './style'
+import { Container, ContainerBox , ContainerDesc ,Skills, Course, ContainerTitle } from './style'
 import Foto from '../../assets/image/WhatsApp Image 2023-01-27 at 20.16.04 copy.jpeg';
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
@@ -125,19 +125,31 @@ function AllMe() {
     </OverlayTrigger>
    
 </ContainerDesc>
-{/* 
-       <ContainerDesc>
-    EXPERIÊNCIA
-OAE - OPERADOR EM ESCOLA Ground Force. Aeroporto Lisboa Operador em escala
-DISTRIBUIDOR
-Correos Express. Alcochete | Jan 2021 - Out 2022</ContainerDesc>
+ <ContainerTitle><h1>Skills</h1></ContainerTitle>
+       
+<Skills>
+<ul>
+  <li>HTML 5</li><hr/>
+  <li>CSS</li><hr/>
+  <li>JAVASCRIPT</li><hr/>
+  <li>REACT</li><hr/>
+  <li>TYPESCRIPT</li><hr/>
+  <li>REDUX</li><hr/>
+  <li>MYSQL</li><hr/>
+  <li>BOOSTRAP</li><hr/>
+  <li>REST API</li><hr/>
 
+</ul>
+<ul>
+  <li>TRABALHO EM EQUIPA</li><hr/>
+  <li>RESOLUÇÃO DE PROBLEMAS</li><hr/>
+  <li>RESPONSAVEL</li><hr/>
+  <li>CUMPRE COM OS OBJETIVOS</li><hr/>
+  <li>AMIGÁVEL</li><hr/>
 
-EXPERIÊNCIA
-OAE - OPERADOR EM ESCOLA Ground Force. Aeroporto Lisboa Operador em escala
-DISTRIBUIDOR
-Correos Express. Alcochete | Jan 2021 - Out 2022 */}
+</ul>
 
+</Skills>
 <Course>
 <h1>Courses</h1>
 

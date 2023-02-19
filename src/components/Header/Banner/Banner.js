@@ -5,11 +5,11 @@ const Banner = () => {
   return (
     <BannerContainer>
     <div>
-    <h2>Lorem Ipjnxsa</h2>
-    <h1>Tnxnk</h1>
-    <p>Lofdsucn cndsi</p>
+    <h2>Front-end</h2>
+    <h1>Ivan GAsques</h1>
+    <p>Lets to talk ...</p>
 
-    <button type='button'> Download CV</button>
+    <p><button type='button'> Download CV</button></p>
       
     </div>
     </BannerContainer>

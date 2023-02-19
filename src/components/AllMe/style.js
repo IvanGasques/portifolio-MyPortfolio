@@ -33,24 +33,41 @@ font-family:none;
 export const ContainerDesc = styled.div`{
 
      width: 80%;
-  margin:0 10% 30px;
+  margin:0 10% 0px;
   display: flex;
-  height: 200px;
+  height: 130px;
   text-align: center;
   justify-content:center;
-  
 
 
 }`
 export const ContainerTitle = styled.div`{
 width: 80%;
   display: flex;
-  margin:10px 10%;
+  margin: auto;
   height: 100px;
   text-align: center;
   justify-content:center;
+  color:#DFA70C;
 }`
-
+export const Skills = styled.div`{
+  width: 80%;
+  display: flex;
+  margin:0 10% 50px;
+  height: auto;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 20px;
+    text-align: center;
+  border-radius:20px;
+    background-color: #555555;
+  
+  justify-content: space-around;
+  ul{
+    list-style-type: none;
+    font-size:1.2rem
+  }
+}`
 export const Drop = styled.div`{
 
   h1 {padding: 40px; text-align: center; font-size: 1.5em;}
@@ -100,27 +117,29 @@ export const Container = styled.div`{
   border-radius:20px;
     background-color: #555555;
     
+    
     p{
         color:#CCCCCC;
+        font-size:1.2em
     }
     img {
   transition: transform .2s;
   :hover {
   transform: scale(1.2);
-}
-
+}}
 }`
 export const Course = styled.div`{
 margin: 0 10%;
 text-align: center;
 width:80%;
 border:1px solid #2e2e2e;
-  background-color:#DFA70C;
+  background-color:#555555;
   border-radius:20px;
   color:white;
+  padding:30px;
   
 h1 {
-color:#2e2e2e;
+  color:#DFA70C;
 }
 h2{
  border-top:1px solid dimgray;

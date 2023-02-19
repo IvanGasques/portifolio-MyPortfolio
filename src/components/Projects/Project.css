@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin:auto;
 }
 #title {
   text-align: center;
@@ -57,7 +58,19 @@
   font-size: 25px;
   color: #cccccc;
 }
-
+.rest{
+  width:90%;
+  height:60px;
+  display: flex;
+  border: 1px solid #707070;
+  align-items: center;
+  margin: 100px auto;
+  justify-content:center;
+  padding: 40px;
+  border-radius: 18px;
+  background-color: #B0B0B0;
+  padding:10px
+}
 span {
   margin: 1.2rem;
   color: gray;

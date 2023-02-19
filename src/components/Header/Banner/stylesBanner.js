@@ -48,7 +48,6 @@ p{
     margin:0;
 }
 button{
-    min-width: 150px;
     border: solid 1px #DFA70C;
     display:flex;
     align-items: center;
@@ -57,7 +56,7 @@ button{
     background-color: transparent;
     border-radius: 42px;
     font-size: 1rem;
-    padding: 10px 15px;
+    padding: 20px 90px;
     margin-bottom: 1rem;
     margin-top: 2rem;
     transition-duration: 1s;

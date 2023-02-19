@@ -23,6 +23,7 @@ function Projects() {
           );
         })}
       </div>
+      <div className="rest"> Soon I will update with more projects that are already done and the new ones that I am about to finish!</div>
     </div>
   );
 }
