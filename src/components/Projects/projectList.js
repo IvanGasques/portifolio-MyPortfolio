@@ -1,14 +1,15 @@
-import Proj1 from '../../assets/image/WhatsApp Image 2023-02-04 at 12.34.21.jpeg';
-import Proj2 from "../../assets/image/2.jpg";
-import Proj3 from "../../assets/image/3.jpg";
-import Proj4 from "../../assets/image/4.jpg";
-import Proj5 from "../../assets/image/5.jpg";
-import Proj6 from "../../assets/image/6.jpg";
+import Proj1 from '../../assets/image/1.jpeg';
+import Proj2 from "../../assets/image/2.jpeg";
+import Proj3 from "../../assets/image/3.jpeg";
+import Proj4 from "../../assets/image/4.jpeg";
+import Proj5 from "../../assets/image/5.jpeg";
+import Proj6 from "../../assets/image/6.jpeg";
 
 export const ProjectList = [
   {
     name: "My Youtube",
     image: Proj1,
+    url:"https://timely-bienenstitch-786698.netlify.app/",
     description:"Copy from Youtube using an API, we use some hooks that are most used.",
     skills:{
       pri:"React",
@@ -18,6 +19,7 @@ export const ProjectList = [
   {
     name: "Copy Site",
     image: Proj2,
+    url:"https://radiant-cendol-289a32.netlify.app/",
     description:"A good layout made in react with only css.",
     skills:{
       pri:"React",
@@ -25,26 +27,29 @@ export const ProjectList = [
       terc:"Figma"} 
   },
   {
-    name: "Spotify Clone",
+    name: "Primereiro Layout 2021",
     image: Proj3,
+    url:"https://starlit-syrniki-394d7e.netlify.app/",
     description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
     skills:{
-      pri:"React",
-      sec:"Node.js",
-      terc:"MongoDB"} 
+      pri:"HTLM",
+      sec:"CSS",
+      terc:"Img"} 
   },
   {
     name: "Mother Site",
     image: Proj4,
+    url:"",
     description:"mother site was my first project made from scratch, made with react.",
     skills:{
       pri:"React",
-      sec:"API JSON",
+      sec:"API/JSON",
       terc:"Bootstrap"} 
   },
   {
     name: "My Node",
     image: Proj5,
+    url:"https://cosmic-begonia-657a1c.netlify.app/",
     description:"simple node done as training for some functionality",
     skills:{
       pri:"React",
@@ -54,6 +59,7 @@ export const ProjectList = [
   {
     name: "training form",
     image: Proj6,
+    url:"",
     description:"training form",
     skills:{
       pri:"HTML",
@@ -63,6 +69,7 @@ export const ProjectList = [
   {
     name: "Firts project",
     image: Proj6,
+    url:"",
     description:"training form",
     skills:{
       pri:"HTML",

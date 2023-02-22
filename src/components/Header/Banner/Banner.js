@@ -9,7 +9,7 @@ const Banner = () => {
     <h1>Ivan GAsques</h1>
     <p>Lets to talk ...</p>
 
-    <p><button type='button'> Download CV</button></p>
+    <p><button type='button'><a href='..//../../assets/image/Cv2023 copy.pdf' download> Download CV</a></button></p>
       
     </div>
     </BannerContainer>

@@ -2,15 +2,15 @@ import React from 'react';
 
 import { HeaderContainer, Container } from './styles'
 import Menu from '../NavBar/Menu'
-import Banner from './Banner/Banner'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <>
     <HeaderContainer>
     <Container>
-    <div className='title'>
-      My Portfolio
+    <div className='title'><Link className='deco' to="/"> My Portfolio</Link>
+     
    </div>
    <div>
       <Menu/>

@@ -22,7 +22,10 @@ position:relative;
     height:100%;
     background-color: rgba(86,86,86,0.8);
 }
-
+a{
+    text-decoration:none;
+    color:#EEEEEE;
+}
 div{
     z-index:40;
 }

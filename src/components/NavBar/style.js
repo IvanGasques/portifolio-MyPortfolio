@@ -21,6 +21,10 @@ export const ContainerMenu = styled.nav`
         cursor: pointer;
       }
     }
+    a:hover {
+      color: #DFA70C;
+      transition-duration: 0.5s;
+    }
     
       @media screen and (max-width: 450px) {
 li{

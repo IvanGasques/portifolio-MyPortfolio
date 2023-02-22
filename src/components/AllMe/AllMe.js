@@ -30,11 +30,9 @@ const longContent1 = "Ola";
 const shortContent1 = "Prazer ve-lo aqui";
 
 const longContent2 = `
-  Very long
-  Multiline content
-  that is engaging and what-not
+Hola
 `;
-const shortContent2 = 'Short and sweet!';
+const shortContent2 =  "es bienvenido";
 
 function AllMe() {
   const [content, setContent] = useState(shortContent);
@@ -44,7 +42,7 @@ function AllMe() {
   useEffect(() => {
     const timerId = setInterval(() => {
       setContent(content === shortContent ? longContent : shortContent);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(timerId);
   });
@@ -52,7 +50,7 @@ function AllMe() {
   useEffect(() => {
     const timerId = setInterval(() => {
       setContent1(content1 === shortContent1 ? longContent1 : shortContent1);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(timerId);
   });
@@ -60,7 +58,7 @@ function AllMe() {
   useEffect(() => {
     const timerId = setInterval(() => {
       setContent2(content2 === shortContent2 ? longContent2 : shortContent2);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(timerId);
   });

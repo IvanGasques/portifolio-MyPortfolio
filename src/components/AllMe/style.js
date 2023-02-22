@@ -83,7 +83,7 @@ export const ContainerDesc = styled.div`{
 export const ContainerTitle = styled.div`{
 width: 80%;
   display: flex;
-  margin: auto;
+  margin: auto auto 4rem;
   height: 100px;
   text-align: center;
   justify-content:center;
