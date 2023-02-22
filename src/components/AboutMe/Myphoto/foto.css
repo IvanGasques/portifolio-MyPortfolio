@@ -1,8 +1,12 @@
+body {
+    overflow-x: hidden;
+  }
+  
 button{
     color:green;
     border-radius:50%;
-    width:25px;
-    height:25px;
+    width:1.4rem;
+    height:1.4rem;
     display:flex;
     align-items:center;
     padding:2px 6px;
@@ -13,17 +17,19 @@ button{
 #style{
     border-radius: 50%;
     justify-content:center;
-}
-#style img{
-    justify-items:center;
-    border: 1px solid azure;
-    border-radius:50%;
-    padding:5px 5px ;
-    margin:0 17px;
-    margin: 120px 42.5% 0;
-    justify-self: center;
+    width:70%;
 
 }
+#style img{
+    justify-items: center;
+    border: 1px solid azure;
+    border-radius: 50%;
+    padding: 5px 5px;
+    margin: 0 17px;
+    margin: 0px 52.5% 0;
+
+}
+
 .buttun{
     display:flex;
     flex-direction:row;
@@ -39,4 +45,26 @@ button{
 }
 .terc{
     background-color:#5282d1;
+}
+@media only screen and (max-width: 450px) {
+    #style img{
+        justify-items: center;
+        border: 1px solid azure;
+        border-radius: 50%;
+        padding: 5px 5px;
+        margin: 0px 52.5% 0;
+    
+
+}
+.buttun{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:0 0 -0px 0;
+    
+}
+button{
+    width:1.2rem;
+    height:1.2rem;
+}
 }

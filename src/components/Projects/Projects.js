@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="projects">
     
-      <h1 id="title"> My Personal Projects</h1>
+      <h1 id="title"> My Personal Projects</h1>‹
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (

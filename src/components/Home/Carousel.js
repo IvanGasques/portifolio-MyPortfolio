@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components'
+import './carousel.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,6 +12,7 @@ import Gif5 from './/..//../assets/image/2023-02-17 08.53.37.gif';
 
 
 const settings = {
+
     dots: false,
     arrows: true,
     infinite: true,
@@ -49,22 +50,22 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       
-        <h3 ><img src={Gif}  alt="projects"/> </h3>
+        <h3 ><img className="img" src={Gif}  alt="projects"/> </h3>
 
-      <div>
-        <h3 ><img src={Gif1}  alt="projects"/></h3>
+      <div className="slide">
+        <h3 ><img className="img" src={Gif1}  alt="projects"/></h3>
       </div>
       <div>
-        <h3 ><img src={Gif2}  alt="projects"/></h3>
+        <h3 ><img className="img" src={Gif2}  alt="projects"/></h3>
       </div>
       <div>
-        <h3 ><img src={Gif3} alt="projects"/></h3>
+        <h3 ><img className="img" src={Gif3} alt="projects"/></h3>
       </div>
       <div>
-        <h3><img src={Gif4}  alt="projects"/></h3>
+        <h3><img className="img"  src={Gif4}  alt="projects"/></h3>
       </div>
       <div>
-        <h3><img src={Gif5}  alt="projects"/></h3>
+        <h3><img className="img" src={Gif5}  alt="projects"/></h3>
       </div>
       <div>
         <h3>Slide 6</h3>

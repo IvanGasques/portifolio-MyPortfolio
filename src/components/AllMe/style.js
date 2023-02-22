@@ -1,5 +1,44 @@
 import styled from 'styled-components'
 
+export const StyledVideo = styled.div`{
+  justify-content: space-evenly;
+    display: flex;
+    height: 12rem;
+    place-items: center;
+    margin: 160px 5% ;
+    width: 90%;
+    text-color:gray;
+    color:#DFA70C;
+    
+    @media screen and (max-width: 450px) {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  justify-content: center;
+    text-align: center;
+    width:100%;
+    margin:0px 0 0 0px;
+    ul{
+      padding: inherit; 
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    }
+    @media screen and (max-width: 900px) {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  justify-content: center;
+    text-align: center;
+    width:100%;
+    margin:0px 0 0 0px;
+    ul{
+      padding: inherit; 
+    }
+    }
+
+}`;
+
 export const ContainerBox = styled.div`{
     .button{
         color: dimgray;
@@ -65,8 +104,17 @@ export const Skills = styled.div`{
   justify-content: space-around;
   ul{
     list-style-type: none;
-    font-size:1.2rem
+    font-size:1.2em;
+    padding:20px;
   }
+@media only screen and (max-width: 450px) {
+  ul{
+    font-size:1em;
+   
+  }
+
+}
+
 }`
 export const Drop = styled.div`{
 
@@ -112,7 +160,8 @@ export const Container = styled.div`{
     margin: 30px 10%;
     padding: 20px;
     display: flex;
-    height: 300px;
+  
+    height: 340px;
     text-align: center;
   border-radius:20px;
     background-color: #555555;
@@ -120,14 +169,57 @@ export const Container = styled.div`{
     
     p{
         color:#CCCCCC;
-        font-size:1.2em
+        font-size:1.2em;
+        width:inherit;
     }
     img {
+      width:30%;
+      height:auto;
   transition: transform .2s;
   :hover {
   transform: scale(1.2);
 }}
+@media only screen and (max-width: 450px) {
+img{
+  width: 50%;
+    height: 150px;
+    margin: 0 25%;
+}
+p{
+    font-size: 0.7em;
+    width: 80%;
+    padding-top: 30px;
+}
+display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 80%;
+    padding: 40px 0;
+    margin: 70px 10%;
+    align-items: center;
+
+}
+@media only screen and (max-width: 900px) {
+img{
+  width: 40%;
+    height: 250px;
+    margin: 0 25%;
+}
+p{
+    font-size: 0.7em;
+    width: 80%;
+    padding-top: 30px;
+}
+display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 80%;
+    padding: 40px 0;
+    margin: 70px 10%;
+    align-items: center;
+}
 }`
+
 export const Course = styled.div`{
 margin: 0 10%;
 text-align: center;

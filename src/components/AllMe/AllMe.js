@@ -1,22 +1,12 @@
 
-import { Container, ContainerBox , ContainerDesc ,Skills, Course, ContainerTitle } from './style'
+import { Container, ContainerBox ,StyledVideo, ContainerDesc ,Skills, Course, ContainerTitle } from './style'
 import Foto from '../../assets/image/WhatsApp Image 2023-01-27 at 20.16.04 copy.jpeg';
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
-import styled from 'styled-components';
 
-const StyledVideo = styled.div`{
-  justify-content: space-evenly;
-    display: flex;
-    height: 45vh;
-    place-items: center;
-        margin: 0px auto;
-    width: 100%;
-    text-color:gray;
-    color:#DFA70C;
-}`;
+
 
 const UpdatingPopover = React.forwardRef(
   ({ popper, children, show: _, ...props }, ref) => {

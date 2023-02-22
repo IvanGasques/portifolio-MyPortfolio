@@ -76,6 +76,14 @@ transition-duration:1s;
     div{
       font-size:2rem;
     }
-
+    @media screen and (max-width: 450px) {
+        h1{
+            font-size:1.3rem
+        }
+        button{
+            font-size: 0.7rem;
+    padding: 14px 45px;
+        }
+    }
 }
 `

@@ -1,15 +1,14 @@
 .projects {
-  width: 90%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin:auto;
 }
 #title {
   text-align: center;
   align-items: center;
+  justify-content:center;
   color: linear-gradient(
     151deg,
     rgba(120, 120, 120, 1) 12%,
@@ -18,12 +17,14 @@
   font-size: 60px;
   font-weight: bolder;
   width: 100%;
-  padding: 20px 0 0 10%;
+  padding: 20px;
   border-bottom: 1px solid white;
+  margin:0;
 }
 
 .projectList {
-  width: 90vw;
+  width: 90%;
+  margin:auto;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -36,8 +37,8 @@
   border-radius: 15px;
   width: 400px;
   height: 500px;
-  margin: 40px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 15px rgb(0 0 0 / 20%);
   text-align: center;
   background-color: #2e2e2e;
 }
@@ -83,11 +84,6 @@ p {
   padding: 0.5em;
 }
 
-/* span:hover {
-  color: #dfa70c;
-  border: solid 1px gray;
-  transition-duration: 0.6s;
-} */
 
 @media only screen and (max-width: 1300px) {
   .projectList {
@@ -102,27 +98,37 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+  #title {
+    font-size: 1.6rem;
+
+  }
+
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
   .projectList {
+    font-size:5px;
     width: 100%;
   }
   .projectItem {
-    width: 280px;
-    height: 420px;
-    margin-left: 25%;
+    width: 360px;
+    height: 480px;
+    margin:15px;
     align-items: center;
+    
   }
   span {
     margin: 5px;
   }
   #title {
-    font-size: 1.8rem;
-    margin-left: 20%;
+    font-size: 1.9rem;
     padding: 50px 0 0 0;
+    margin:15px 0;
   }
   #title:hover {
     border-bottom: solid 1px #dfa70c;
     width: 80%;
     transition-duration: 1s;
-    margin-left: 20%;
   }
 }
