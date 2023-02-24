@@ -53,7 +53,7 @@ transition-duration:0.5s;}
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 400px) {
     .about{
         height:180px;
         margin-top:15px;
@@ -68,17 +68,16 @@ transition-duration:0.5s;}
 }
 .about button{
     font-size: 13px;
-    width: 22%;
+    width: 26%;
   
   
   }
         .content{
-            width:230px;
+            width:200px;
             font-size:0.7rem;
-            margin-left:44%;
             padding:0;
 
-            padding:0 0 0 20px;
+            padding:0 0 0 0px;
         }
 
 }

@@ -10,7 +10,7 @@ export const ProjectList = [
     name: "My Youtube",
     image: Proj1,
     url:"https://timely-bienenstitch-786698.netlify.app/",
-    description:"Copy from Youtube using an API, we use some hooks that are most used.",
+    description:"Copy from Youtube using API,we use some hooks that are most used.",
     skills:{
       pri:"React",
       sec:"API",
@@ -27,10 +27,10 @@ export const ProjectList = [
       terc:"Figma"} 
   },
   {
-    name: "Primereiro Layout 2021",
+    name: "First Layout 2021",
     image: Proj3,
-    url:"https://starlit-syrniki-394d7e.netlify.app/",
-    description:"Ldcier vcniovsncnuso venfodisnv voenvd vnev ube v v ivekjdo",
+    url:"",
+    description:"My first layout, test with HTML and CSS no content .",
     skills:{
       pri:"HTLM",
       sec:"CSS",
@@ -40,7 +40,7 @@ export const ProjectList = [
     name: "Mother Site",
     image: Proj4,
     url:"",
-    description:"mother site was my first project made from scratch, made with react.",
+    description:"Mom's site was my first project made from scratch, made with react.",
     skills:{
       pri:"React",
       sec:"API/JSON",
@@ -50,14 +50,14 @@ export const ProjectList = [
     name: "My Node",
     image: Proj5,
     url:"https://cosmic-begonia-657a1c.netlify.app/",
-    description:"simple node done as training for some functionality",
+    description:"Simple node done as training for some functionality",
     skills:{
       pri:"React",
       sec:"CSS",
       terc:"LocalStore"} 
   },
   {
-    name: "training form",
+    name: "Training form",
     image: Proj6,
     url:"",
     description:"training form",
@@ -66,16 +66,16 @@ export const ProjectList = [
       sec:"CSS",
       terc:"JAVASCRIPT"} 
   },
-  {
-    name: "Firts project",
-    image: Proj6,
-    url:"",
-    description:"training form",
-    skills:{
-      pri:"HTML",
-      sec:"Tags",
-      terc:"Imagen"} 
-  },
+  // {
+  //   name: "Firts project",
+  //   image: Proj6,
+  //   url:"",
+  //   description:"training form",
+  //   skills:{
+  //     pri:"HTML",
+  //     sec:"Tags",
+  //     terc:"Imagen"} 
+  // },
  
   
 ];

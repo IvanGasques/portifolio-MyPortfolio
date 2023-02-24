@@ -8,7 +8,11 @@ export const StyledVideo = styled.div`{
     margin: 160px 5% ;
     width: 90%;
     text-color:gray;
-    color:#DFA70C;
+    color:#DFA70C; 
+
+    #video{
+      background-color:white;
+    }
     
     @media screen and (max-width: 450px) {
     flex-wrap: wrap;
@@ -78,7 +82,11 @@ export const ContainerDesc = styled.div`{
   text-align: center;
   justify-content:center;
 
-
+  @media only screen and (max-width: 450px) {
+    .button{
+margin: 0px 20px;
+}
+  }
 }`
 export const ContainerTitle = styled.div`{
 width: 80%;
@@ -112,10 +120,9 @@ export const Skills = styled.div`{
     font-size:1em;
    
   }
+  
 
-}
-
-}`
+}}`
 export const Drop = styled.div`{
 
   h1 {padding: 40px; text-align: center; font-size: 1.5em;}

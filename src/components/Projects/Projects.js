@@ -16,7 +16,7 @@ function Projects() {
             key={idx}> 
             <img src={project.image} alt='project'/>
             <h1><Link className="color" to={project.url}> {project.name}</Link></h1> 
-            <p>{project.description}</p>
+            <p className="description">{project.description}</p>
             <p><span>{project.skills.pri}</span>
             <span>{project.skills.sec}</span>
             <span>{project.skills.terc}</span></p>

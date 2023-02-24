@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { FaWhatsapp, FaRegMap, FaMobileAlt, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 import { MdOutlineMailOutline, MdPermIdentity } from "react-icons/md";
+import video2 from "../../assets/image/video2.mp4"
 
 const StyledForm = styled.form`
   background-color: #2e2e2e;
@@ -217,7 +218,7 @@ const ContactForm = () => {
   return (
     <>
       <StyledVideo>
-        <iframe width="690" height="400" src="https://www.youtube.com/embed/XrrbK5GwnA0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <iframe width="690" height="400" src={video2} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         <ul>
           <li className='item2' style={{ display: 'flex', justifyContent: 'center', listStyle: 'none' }}><MdPermIdentity size={30} /></li><p style={{ color: 'gray' }}>Ivan Gasques</p><hr />
           <li className='item2' style={{ display: 'flex', justifyContent: 'center', listStyle: 'none' }}><FaRegMap size={30} /></li> <p style={{ color: 'gray' }}>Moita - Portugal</p><hr />

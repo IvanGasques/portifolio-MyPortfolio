@@ -9,6 +9,7 @@ import Gif2 from './/..//../assets/image/2023-02-17 08.40.21.gif';
 import Gif3 from './/..//../assets/image/2023-02-17 08.42.56.gif';
 import Gif4 from './/..//../assets/image/2023-02-17 08.44.41.gif';
 import Gif5 from './/..//../assets/image/2023-02-17 08.53.37.gif';
+import Gif6 from './/..//../assets/image/2023-02-24 16.41.53.gif';
 
 
 const settings = {
@@ -68,7 +69,7 @@ const Carousel = () => {
         <h3><img className="img" src={Gif5}  alt="projects"/></h3>
       </div>
       <div>
-        <h3>Slide 6</h3>
+        <h3><img className="img" src={Gif6}  alt="projects"/></h3>
       </div>
     </Slider>
   );

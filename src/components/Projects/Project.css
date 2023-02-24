@@ -40,8 +40,19 @@
   margin-bottom: 30px;
   box-shadow: 0px 3px 15px rgb(0 0 0 / 20%);
   text-align: center;
+  background-color: #2e2e2e;}
+
+@media only screen and (max-width: 450px) {
+  .projectItem { prborder-radius: 15px;
+  width: 300px;
+  height: 490px;
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 15px rgb(0 0 0 / 20%);
+  text-align: center;
   background-color: #2e2e2e;
+  }
 }
+
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
@@ -70,18 +81,45 @@
   padding: 40px;
   border-radius: 18px;
   background-color: #B0B0B0;
-  padding:10px
+  padding:10px;
 }
+@media only screen and (max-width: 450px) {
+  .rest{
+  width: 90%;
+    height: 60px;
+    display: flex;
+    border: 1px solid #707070;
+    align-items: center;
+    margin: 100px auto;
+    justify-content: center;
+    border-radius: 18px;
+    background-color: #B0B0B0;
+    padding: 60px;}}
+
 span {
-  margin: 1.2rem;
+ margin: 6px;
+    color: gray;
+    border: solid 1px #dfa70c;
+    padding: 0.25em 0.6em;
+    border-radius: 12px;
+  align-items: center;}
+@media only screen and (max-width: 450px) {
+ span{ margin: 6px;
   color: gray;
+  font-size:15px;
   border: solid 1px #dfa70c;
-  padding: 0.3em 0.7em;
-  border-radius: 12px;
-  align-items: center;
+  padding: 0.25em 0.6em;
+  border-radius: 12px;}
+  .description {
+  
+    font-size:15px;
+  }
 }
+
+
 p {
-  padding: 0.5em;
+  /* padding: 0.5em; */
+  
 }
 
 .color{
@@ -109,7 +147,7 @@ p {
 }
 
 
-@media only screen and (min-width: 501px) and (max-width: 900px) {
+@media only screen and (min-width: 501px) and (max-width: 1400px) {
   .projectList {
     font-size:5px;
     width: 100%;
